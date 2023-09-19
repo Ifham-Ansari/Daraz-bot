@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 01</title>
+    <style>
+        marquee{
+            color: rgb(196, 7, 7);
+            font-size: 1.8rem;
+            font-weight:300;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        span{
+            color: blueviolet;
+        }
+        h1{
+            padding: 2rem 0 2rem 0;
+            background-color: aqua;
+            color: black;
+        }
+        p{
+            text-align: center;
+            padding: 0 5rem 0 5rem;
+
+        }
+        .img1{
+            width: 70%;
+            height:63vh;
+            object-fit: cover;
+            object-position: center;
+            display: block;
+        }
+        button{
+          
+            margin: 2% 2%;
+            font-size: 20px;
+            border-radius: 25px;
+            padding: 12px 24px;
+            border: 1px solid white;
+            outline: none;
+        }
+        button a{
+            text-decoration: none;   
+        }
+   button:hover{
+    background-color: blue;
+    border: 2px solid black;
+    transition: all linear 0.5s;
+    color: white;
+   }
+   button a:hover{
+    color: white;
+   }
+   table{
+    width: 80%;
+   }
+   table th{
+    background-color: aquamarine;
+   }
+   table th:hover{
+    background-color: grey;
+    color: white;
+   }
+   table td:hover{
+    background-color: grey;
+    color: white;
+   }
+    #name{
+    margin-left: 24px;
+   }
+   #email{
+    margin-left: 24px;
+   }
+   input{
+    margin: 12px;
+   }
+   
+
+    </style>
+</head>
+<body>
+    <center>
+    <h1>It's Ifham Ansari</h1>
+
+    <marquee behavior="" direction="">Web & Chatbot Developer</marquee>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <span >Explicabo aperiam aspernatur esse at facere?</span> Iusto mollitia reprehenderit at doloribus et laborum repellendus recusandae assumenda. <br> Officia vitae impedit mollitia nemo accusamus!
+    </p>
+    <!-- <center><img src="./imgs/me.jpg" class="img1" alt="Error">
+        <button type="button">
+        <a href="https://portfolio-ifham.netlify.app/" target="_blank">About Me</a>
+
+    </button>
+</center> -->
+<table border="1">
+    <tr>
+        <th>Sr no</th>
+        <th >Name</th>
+        <th>Email</th>
+        <th>Id</th>
+        <th>Semester</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td rowspan="2">Ifham Ansari</td>
+        <td>ifhamansari933@gmail.com</td>
+        <td>05</td>
+        <td>5th</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>ifhamansari933@gmail.com</td>
+        <td>05</td>
+        <td>5th</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Ifham Ansari</td>
+        <td>ifhamansari933@gmail.com</td>
+        <td>05</td>
+        <td>5th</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Ifham Ansari</td>
+        <td>ifhamansari933@gmail.com</td>
+        <td>05</td>
+        <td>5th</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Ifham Ansari</td>
+        <td>ifhamansari933@gmail.com</td>
+        <td>05</td>
+        <td>5th</td>
+    </tr>
+
+</table>
+<br><br>
+<form action="https://portfolio-ifham.netlify.app/">
+    <label for="">Name</label>
+    <input type="text" name="" id="name" required> <br>
+    <label for="">Email</label>
+    <input type="email" name="" id="email" required><br>
+    <label for="">password</label>
+    <input type="password" name="" id="password" required><br>
+    <label for="">Gender</label>
+    <label for="">Male</label>
+    <input type="checkbox" name="" id="checkbox" required>
+    <label for="">Female</label>
+    <input type="checkbox" name="" id="checkbox" required> <br>
+    <button type="submit">Submit</button>
+    
+
+</form>
+</center>
+</body>
+</html>
